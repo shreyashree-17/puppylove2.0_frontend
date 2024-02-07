@@ -74,11 +74,11 @@ const RegisterPage: React.FC = () => {
                             <input
                                 className={styles["login-input"]}
                                 type="text"
-                                name="ID"
+                                name="Roll Number"
                                 value={id}
                                 onChange={handleSubmit}
                                 required
-                                placeholder="ID"
+                                placeholder="Roll Number"
                             />
                         </motion.div>
                         <div className={styles["login-bottom"]}>

@@ -90,7 +90,7 @@ const LoginPage: React.FC = () => {
                                 value={data.id}
                                 onChange={handleSubmit}
                                 required
-                                placeholder="ID"
+                                placeholder="Roll Number"
                             />
                         </motion.div>
                         <motion.div
