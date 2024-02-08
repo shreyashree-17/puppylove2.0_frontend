@@ -21,7 +21,7 @@ const RegisterPage: React.FC = () => {
     // It will be public anyway
     const CAPTCHA_KEY = process.env.CAPTCHA_KEY || "6LfyO2spAAAAAAgKJhkhKSs1ai_ryDqDESYCkvUB"
 
-    const [recaptchaToken, setRecaptchaToken] = useState(null);
+    const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
     const [id, setId] = useState("");
 
     const router = useRouter()
