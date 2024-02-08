@@ -20,8 +20,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 const LoginPage: React.FC = () => {
     const [data, setData] = useState({ id: "", password: "" });
     const [pass,setPass] = useState("password")
-    const [recaptchaToken, setRecaptchaToken] = useState(null);
-
+    const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
     // It will be public anyway
     const CAPTCHA_KEY = process.env.CAPTCHA_KEY || "6LfyO2spAAAAAAgKJhkhKSs1ai_ryDqDESYCkvUB"
 
